@@ -1,0 +1,80 @@
+/* Reset básico */
+body {
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    background: linear-gradient(45deg, #ff00cc, #3333ff);
+    color: #000;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* Título principal */
+h1 {
+    background-color: yellow;
+    color: red;
+    padding: 20px;
+    border-bottom: 5px dashed black;
+}
+
+/* Subtítulos */
+h2 {
+    color: #00ff00;
+    text-shadow: 2px 2px black;
+}
+
+/* Listas */
+ol, ul {
+    display: inline-block;
+    text-align: left;
+    background-color: #ffffffaa;
+    padding: 15px;
+    border: 3px solid black;
+}
+
+/* Botão estilo retrô */
+a {
+    display: inline-block;
+    background-color: cyan;
+    color: black;
+    padding: 10px 15px;
+    text-decoration: none;
+    border: 3px outset #000;
+    margin: 10px;
+    font-weight: bold;
+}
+
+a:hover {
+    background-color: magenta;
+    color: white;
+    border: 3px inset #000;
+}
+
+/* Tabela */
+table {
+    margin: 20px auto;
+    background-color: white;
+    border-collapse: collapse;
+}
+
+th {
+    background-color: black;
+    color: yellow;
+    padding: 10px;
+}
+
+td {
+    padding: 10px;
+    border: 2px solid black;
+}
+
+/* Imagens estilo VHS */
+img {
+    margin: 10px;
+    border: 5px ridge silver;
+    box-shadow: 5px 5px 0 black;
+}
+
+/* Links de trailer */
+a[target="_blank"] {
+    background-color: orange;
+}
